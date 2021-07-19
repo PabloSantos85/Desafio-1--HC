@@ -62,7 +62,8 @@ html{
 }
 
 .cad-title{
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 form{
@@ -95,10 +96,14 @@ form input{
     border: solid white 1px;
 }
 
+footer{
+    width: 100%;
+    justify-content: center;
+}
+
 .sMedia{
     background-color: black;
     display: flex;
-    justify-content: space-between;
     color: white;
 }
 
@@ -133,7 +138,7 @@ form input{
 @media screen and (max-width: 520px) {
 
     .main-container{
-        width: 300px;
+        width: 100px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
@@ -142,7 +147,7 @@ form input{
     }
 
     .section1 .carrousel{
-        width: 350px;
+        width: 420px;
         margin-top: 40px;
         display: flex;
         flex-direction: column;
