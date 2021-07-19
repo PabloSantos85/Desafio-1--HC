@@ -85,8 +85,26 @@ form input{
     padding: 20px;
     border-radius: 15px;
     background-color: white;
-    border: none;
+    border: 1px solid black;
     font-weight: bold;
+}
+
+.submit:hover{
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+}
+
+.sMedia{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.fab{
+    margin-right: 10px;
+    color: white;
 }
 
 /* -- Responsividade -----------------------------------------------------------------------------------------------*/
@@ -132,9 +150,5 @@ form input{
         text-align: center;
     }
 
-    .carousel-caption{
-        width: 50px;
-    }
-    
 }
 
